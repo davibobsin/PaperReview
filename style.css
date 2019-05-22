@@ -1,0 +1,145 @@
+/*Geral*/
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tabela */
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(odd){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*Navigation bar*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left:0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #fff;
+}
+
+.result {
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+#success{
+  border: 5px solid green;
+  background-color: #cfc;
+}
+
+#error{
+  border: 5px solid red;
+  background-color: #fcc;
+}
+
+
+/* Uploader */
+#uploader {
+        width: 300px;
+        height: 200px; 
+        background: #f4b342; 
+        padding: 10px;
+      }
+
+/* Popup box BEGIN */
+.hover_upload,.hover_info{
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+}
+.hover_upload .helper, .hover_info .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_upload > div,.hover_info > div{
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 5%;
+}
+
+.close_info,.close_upload {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.popupCloseButton:hover {
+    background-color: #ccc;
+}
+.trigger_info, .trigger_upload {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Popup box END */
+
