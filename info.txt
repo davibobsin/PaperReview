@@ -1,2 +1,2 @@
-Estado da Arte : Deteção e Classificação
-Estudo sobre o estado da arte para publicação de paper.
+Important Paper Review
+Description of the purpose of the study.
